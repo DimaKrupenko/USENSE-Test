@@ -1,6 +1,13 @@
 .App {
+  display: flex;
+  justify-content: center;
   text-align: center;
   margin-top: 100px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px 10px;
 }
 
 input {
@@ -9,29 +16,4 @@ input {
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 300px;
-}
-
-.strength-indicator {
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
-}
-
-.indicator {
-  height: 10px;
-  width: 30%;
-  background-color: lightgray;
-}
-
-.red {
-  background-color: red;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.green {
-  background-color: green;
 }
