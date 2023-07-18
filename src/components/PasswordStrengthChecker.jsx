@@ -5,7 +5,7 @@ const PasswordStrengthChecker = () => {
     const [password, setPassword] = useState('');
 
     const getPasswordStrength = () => {
-        const hasLetters = /[a-zA-Z]/.test(password);
+        const hasLetters = /[a-zA-Zа-яА-Я]/.test(password);
         const hasNumbers = /\d/.test(password);
         const hasSymbols = /[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]/.test(password);
         const shortPassword = password.length < 8;
