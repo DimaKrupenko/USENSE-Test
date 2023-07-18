@@ -34,7 +34,7 @@ const PasswordStrengthChecker = () => {
 
     return (
         <div>
-            <h1>Password</h1>
+            <h1>Enter password</h1>
             <input
                 type="password"
                 value={password}
@@ -51,7 +51,7 @@ const PasswordStrengthChecker = () => {
                         }`}
                 ></li>
                 <li
-                    className={`indicator ${weakPasswordFromOtherSection || mediumPassword || strongPassword
+                    className={`indicator ${weakPasswordFromOtherSection || strongPassword
                         }`}
                 ></li>
             </ul>
