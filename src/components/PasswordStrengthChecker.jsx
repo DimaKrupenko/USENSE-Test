@@ -33,7 +33,7 @@ const PasswordStrengthChecker = () => {
     const strongPassword = passwordStrength === 'strong' && 'green';
 
     return (
-        <form>
+        <div>
             <h1>Password</h1>
             <input
                 type="password"
@@ -55,7 +55,7 @@ const PasswordStrengthChecker = () => {
                         }`}
                 ></li>
             </ul>
-        </form>
+        </div>
     )
 }
 
