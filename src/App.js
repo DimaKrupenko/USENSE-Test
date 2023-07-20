@@ -1,5 +1,5 @@
 import React from 'react';
-import PasswordStrengthChecker from './components/PasswordStrengthChecker';
+import PasswordStrengthChecker from './components/PasswordStrengthChecker/PasswordStrengthChecker';
 import './App.css';
 
 function App() {
