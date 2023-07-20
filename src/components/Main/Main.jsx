@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Input from '../Input/Input'
 import List from '../List/List';
 import Title from '../Title/Title'
-import './PasswordStrengthChecker.css'
+import './Main.css'
 
 
-const PasswordStrengthChecker = () => {
+const Main = () => {
     const [password, setPassword] = useState('');
     return (
         <div>
@@ -21,4 +21,4 @@ const PasswordStrengthChecker = () => {
     )
 }
 
-export default PasswordStrengthChecker
+export default Main
